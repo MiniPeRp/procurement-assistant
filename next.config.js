@@ -19,6 +19,9 @@ const nextConfig = {
   env: {
     // Add any environment variables you need here
   },
+  experimental: {
+    optimizeFonts: true,
+  },
 };
 
 module.exports = nextConfig; 
